@@ -16,4 +16,4 @@ accomplish tasks far beyond the capability of a single robot.
 
 ----
 
-[Read my CV here](/files/CV_Shuyang_Shi.pdf) $$\rightarrow$$
+[Read my CV here](/files/CV_ssy_v0912.pdf)
