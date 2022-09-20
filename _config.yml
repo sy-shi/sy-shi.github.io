@@ -29,7 +29,7 @@ title:                 Shuyang Shi
 #   with a focus on personal sites that are meant to impress
 
 # A shorter description for the sidebar.
-# tagline:               Change `tagline` in `_config.yml`
+tagline:               Senior Student @SJTU
 
 # A list of keywords for your blog
 keywords:              [personal]
@@ -37,7 +37,7 @@ keywords:              [personal]
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/icon/circle_head.png
+logo:                  /assets/icons/circle_head.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -61,6 +61,8 @@ menu:
     url:               /project/
   - title:             Research
     url:               /research/
+  - title:             CV
+    url:               /files/CV_Shuyang_Shi.pdf
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -69,11 +71,11 @@ legal:
     url:               /LICENSE/
   - title:             NOTICE
     url:               /NOTICE/
-  - title:             CHANGELOG
-    url:               /CHANGELOG/
+  # - title:             CHANGELOG
+  #   url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2021. All rights reserved.
+# copyright:             © 2021 Shuyang Shi. All rights reserved.
 
 # Format of the permalinks
 permalink:             /:categories/:year-:month-:day-:title/
@@ -223,7 +225,7 @@ hydejack:
 
   # Set to `true` if you don't intend on changing the accent color on a per-page basis.
   # This will increase site build speed!
-  no_page_style:       false
+  no_page_style:       true
 
   # Code blocks and tables "break" the layout by spanning the full available width.
   # Set this to true if you want them to be the same width as other content.

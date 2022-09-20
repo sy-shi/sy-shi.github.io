@@ -1,25 +1,19 @@
 ---
 layout: page
-title: SSY's Heart
+title: Hello! I am Shuyang Shi.
 description: >
   The home page of my personal website, put basic information into it.
 hide_description: true
 cover: true
 ---
-This is ssy's heart.
+<img src="assets/icons/circle_head.png" style="zoom:26%; float:right; padding:50px;" />
 
-<!-- ![200x100](/assets/img/profiles/girl.jpg)
- -->
- But the girl below has occupied this place T_T
- <img src="assets/img/profiles/girl.jpg" style="zoom:46%;" />
-<!-- ---
-layout: blog
-title: Blog
-description: >
-  The official Hydejack blog. Version updates, example content and how-to guides on how to blog with Jekyll.
-last_modified_at: 2018-08-03
-no_link_title: false
-no_excerpt: false
-hide_image: false
-cover: true
---- -->
+I am a senior student from the school of **Mechanical Engineering**, Shanghai Jiao Tong University.
+My research interest lies in **collaborative multi-robot systems**, especially their planning and
+control.
+In my opinion, collaborative robotic systems have great potential for future applications, because they can
+accomplish tasks far beyond the capability of a single robot.
+
+----
+
+[Read my CV here](/files/CV_Shuyang_Shi.pdf) $$\rightarrow$$

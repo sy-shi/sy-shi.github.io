@@ -1,7 +1,7 @@
 ---
-  root_font_size: 15 #px
-  root_font_size_medium: 16 #px
-  root_font_size_large: 17 #px
+  root_font_size: 16 #px
+  root_font_size_medium: 18 #px
+  root_font_size_large: 20 #px
 
   root_font_size_print: 8 #pt
 
