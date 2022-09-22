@@ -5,6 +5,7 @@ description: >
   The home page of my personal website, put basic information into it.
 hide_description: true
 cover: true
+permalink: /about/
 ---
 <img src="assets/icons/circle_head.png" style="zoom:26%; float:right; padding:50px;" />
 
