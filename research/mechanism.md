@@ -1,13 +1,15 @@
 ---
 layout: page
-title: Research in Mechanism Design
+title: Wave Energy Capturing Mechanism
 sitemap: false
 permalink: /research/mechanism/
 ---
+>Wave energy capturing system design for an autonomous underwater vehicle (AUV).
+
 <img src="assets/img/foldable.jpg" style="zoom:100%; display:block; margin:10px auto;" />
 This research was conducted in a student research training group advised by
-[Prof. Weixing Chen](https://me.sjtu.edu.cn/teacher_directory1/chenweixing.html)
-in my sophomore year. Aiming at improving task endurance of AUVs
+[Prof. Weixing Chen](https://me.sjtu.edu.cn/teacher_directory1/chenweixing.html).
+Aiming at improving task endurance of AUVs
 in the desolated and uninhabited marine environment with restricted pre-storage
 energy, we designed a vehicle with **foldable wings** to convert wave energy into
 electricity.

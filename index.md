@@ -5,7 +5,6 @@ description: >
   The home page of my personal website, put basic information into it.
 hide_description: true
 cover: true
-permalink: /about/
 ---
 <img src="assets/icons/circle_head.png" style="zoom:26%; float:right; padding:50px;" />
 
@@ -17,4 +16,4 @@ accomplish tasks far beyond the capability of a single robot.
 
 ----
 
-[Read my CV here](/files/CV_ssy_v0912.pdf)
+[Read my CV here](/files/CV_ssy_v0925.pdf)

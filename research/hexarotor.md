@@ -4,6 +4,11 @@ title: An Integrated Quadruped-Hexarotor System
 sitemap: false
 permalink: /research/hexarotor/
 ---
+<!-- 0. this unordered seed list will be replaced by toc as unordered list
+{:toc} -->
+>Collaboration of an unmanned aerial vehicle (UAV) and a quadruped robot to conduct
+exploration tasks in flight-impeded zones.
+
 <img src="assets/img/flight_1.png" style="zoom:100%; display:block; margin:10px auto;" />
 This research was conducted in the laboratory of Cooperative Intelligence of
 Unmanned Systems (CIUS) led by [Prof. Wei Dong](https://me.sjtu.edu.cn/teacher_directory1/dongwei2.html).
@@ -12,6 +17,18 @@ tasks in flight-impeded areas, we designed an **integrated quadruped-hexarotor s
 UAVs are flexible and efficient to transport the ground vehicle to the task spot,
 and quadruped robots are of high-adaptiveness in complex environments. The
 collaboration can combine the advantages of the aerial and quadruped vehicles.
+
+---
+
+### Collaboration Process
+<img src="assets/img/process2.png" style="zoom:30%; display:block; margin:10px auto;" />
+As illustrated in the cartoon picture above, the hexarotor delivers the quadruped
+over ground obstacles to somewhere near task sites and **releases** it. Then the quadruped
+conduct **exploration** tasks in complex flight-impeded areas while the UAV remains unmoved.
+After the task is over, the
+quadruped **searches** for the hexarotor via onboard localizaiton and vison systems, then
+**assembling** the two robots for return. Only one onboard computer carried by the quadruped is
+utilized during the whole process, which reduces the overall weight and cost.
 
 ---
 ### System Design
