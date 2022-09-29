@@ -24,7 +24,7 @@ And we designed proper shafts and gearboxes to improve its loading ability.
 <!-- <img src="assets/img/prototype.jpg" style="zoom:120%; display:block; margin:10px auto;" /> -->
 <!-- Above is our model built in Solidworks. To see its prototype, please  -->
 We built a prototype for the obstacle climbing competition.
-[watch our video](https://youtu.be/yi-xT_qJLEE).
+[Watch our video](https://youtu.be/yi-xT_qJLEE).
 
 ---
 [Back to Research Page](/research/)
