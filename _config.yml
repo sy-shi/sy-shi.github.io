@@ -56,7 +56,7 @@ menu:
   # - title:             About
   #   url:               /about/
   - title:             About Me
-    url:
+    url:               /
   - title:             Research
     url:               /research/
   - title:             CV

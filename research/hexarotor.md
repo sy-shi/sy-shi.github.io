@@ -12,31 +12,30 @@ exploration tasks in flight-impeded zones.
 <img src="assets/img/flight_1.png" style="zoom:100%; display:block; margin:10px auto;" />
 This research was conducted in the laboratory of Cooperative Intelligence of
 Unmanned Systems (CIUS) led by [Prof. Wei Dong](https://me.sjtu.edu.cn/teacher_directory1/dongwei2.html).
-Aiming at exploraiton and rescue
+Aiming at exploration and rescue
 tasks in flight-impeded areas, we designed an **integrated quadruped-hexarotor system**.
-UAVs are flexible and efficient to transport the ground vehicle to the task spot,
-and quadruped robots are of high-adaptiveness in complex environments. The
-collaboration can combine the advantages of the aerial and quadruped vehicles.
+UAVs are flexible and efficient in transporting the ground vehicle to the task spot,
+and quadruped robots are of high adaptiveness in complex environments. The
+collaboration can combine the advantages of aerial and quadruped vehicles.
 
 ---
-
 ### Collaboration Process
 <img src="assets/img/process2.png" style="zoom:30%; display:block; margin:10px auto;" />
 As illustrated in the cartoon picture above, the hexarotor delivers the quadruped
 over ground obstacles to somewhere near task sites and **releases** it. Then the quadruped
-conduct **exploration** tasks in complex flight-impeded areas while the UAV remains unmoved.
-After the task is over, the
-quadruped **searches** for the hexarotor via onboard localizaiton and vison systems, then
+conducts **exploration** tasks in complex flight-impeded areas while the UAV remains unmoved.
+After the mission, the
+quadruped **searches** for the hexarotor via onboard localization and vision systems,
 **assembling** the two robots for return. Only one onboard computer carried by the quadruped is
-utilized during the whole process, which reduces the overall weight and cost.
+utilized during the whole process, reducing the overall weight and cost.
 
 ---
 ### System Design
 [Read our Paper](https://ieeexplore.ieee.org/abstract/document/9665137)
 <img src="assets/img/dock.png" style="zoom:70%; display:block; margin:10px auto;" />
 In transportation, the UAV and the quadruped robot are closely contacted. We exploited
-this and developed an **adaptive docking system**, with which the quadruped can be
-captured by the UAV without the requirement for high localization accuracy. And
+this and developed an **adaptive docking system**, with which the the AUV can capture
+the quadruped without requiring high localization accuracy. And
 this system enabled two vehicles to **share computing resources** with four electrodes
 for serial communication.
 
