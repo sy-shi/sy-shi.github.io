@@ -55,10 +55,8 @@ menu:
   #   url:               /docs/
   # - title:             About
   #   url:               /about/
-  # - title:             About Me
-  #   url:               /aboutme
-  - title:             Projects
-    url:               /project/
+  - title:             About Me
+    url:               /
   - title:             Research
     url:               /research/
   - title:             CV

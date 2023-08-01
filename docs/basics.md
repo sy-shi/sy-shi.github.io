@@ -57,7 +57,7 @@ For more information on `srcset`, see the [documentation at MDN][mdn-srcset], or
 To add links to the sidebar, populate the `menu` entry in `_config.yml` with a list of `title`-`url` pairs, e.g.:
 
 ```yml
-# file: `_config.yml`
+# file: `_config.yml`https://hydejack.com/docs/config/#adding-custom-favicons-and-app-icons
 menu:
   - title: Blog
     url:   /blog/

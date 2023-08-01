@@ -14,6 +14,13 @@ My research interest lies in **the control of robotic systems**, especially the 
 In my opinion, control is a key to guaranteeing safe task completion under various disturbances in real situations.
 I envision a future where robots, and maybe teams of them, flexibly and safely accomplish human commands and intelligently
 interact with human beings.
+<<<<<<< HEAD
 ----
 
+=======
+
+----
+
+
+>>>>>>> 06399836817eae4160bce299f0fb10d675091ac4
 [Read my CV here](/files/CV_Shuyang_Shi.pdf)
