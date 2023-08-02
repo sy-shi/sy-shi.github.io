@@ -29,7 +29,7 @@ title:                 Shuyang Shi
 #   with a focus on personal sites that are meant to impress
 
 # A shorter description for the sidebar.
-tagline:               Senior Student @SJTU
+tagline:               23Fall MSR at CMU
 
 # A list of keywords for your blog
 keywords:              [personal]
@@ -37,7 +37,7 @@ keywords:              [personal]
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/icons/circle_head.png
+logo:                  /assets/icons/graduate_circle.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -60,7 +60,7 @@ menu:
   - title:             Research
     url:               /research/
   - title:             CV
-    url:               /files/CV_Shuyang_Shi.pdf
+    url:               /files/CV_0801.pdf
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
