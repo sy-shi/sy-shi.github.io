@@ -24,4 +24,4 @@ and draw inspiration from any other regions.
 
 ---
 
-[Read my CV here](/files/CV_0801.pdf)
+[Read my CV here](/files/CV_Shuyang_Shi.pdf)
