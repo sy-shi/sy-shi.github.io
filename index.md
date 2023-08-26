@@ -19,8 +19,8 @@ cover: true
 My research interest lies in the **control and planning** of robotic systems, especially **collaborative multi-robot systems**.
 I hope to build robot teams that can flexibly and safely accomplish human commands and intelligently interact with human beings.
 <br/> <br/>
-I would like to develop methods based on control theory and artificial intelligence,
-and draw inspiration from human social activities and animal behaviors.
+I would like to develop methods based on control theory, distributed algorithms, and artificial intelligence,
+and draw inspiration from any other regions.
 
 ---
 
