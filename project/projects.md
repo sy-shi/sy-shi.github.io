@@ -7,7 +7,7 @@ hide_description: true
 sitemap: false
 permalink: /project/
 ---
-<img src="assets/img/plan_pic1.png" style="zoom:90%; float:right; padding:37px;" />
+<!-- <img src="assets/img/plan_pic1.png" style="zoom:90%; float:right; padding:37px;" />
 ## Path Planning
 In this project, we implemented a **path planning package** for a turtlebot
 in a pre-mapped environment.
@@ -27,6 +27,13 @@ MATLAB/Simulink.
 based on POE.
 - Designed an **artificial potential field** algorithm with **self-collision avoidance**
 for path planning.
-- Developed the trajectory planning with **cubic splines** based on **dynamic programming**.
+- Developed the trajectory planning with **cubic splines** based on **dynamic programming**. -->
+**Mechanism Design**
+- [A tracked vehicle for obstacle climbing](/research/tracked/)
+
+**Control and Planning**
+- [Path Planning for mobile robots](/research/path-plan/)
+- [Navigation for UR-10 manipulators](/research/ur10-nav/#navigation)
+
 
 ---

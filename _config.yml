@@ -29,7 +29,7 @@ title:                 Shuyang Shi
 #   with a focus on personal sites that are meant to impress
 
 # A shorter description for the sidebar.
-tagline:               23Fall MSR at CMU
+tagline:               M.S. Robotics @ CMU
 
 # A list of keywords for your blog
 keywords:              [personal]
@@ -57,8 +57,10 @@ menu:
   #   url:               /about/
   - title:             About Me
     url:               /
-  - title:             Research
+  - title:             Research & Academic Projects
     url:               /research/
+  # - title:             Course Projects
+  #   url:               /project/
   - title:             CV
     url:               /files/CV_Shuyang_Shi.pdf
 
