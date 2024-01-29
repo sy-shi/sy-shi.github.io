@@ -30,6 +30,7 @@ for path planning.
 - Developed the trajectory planning with **cubic splines** based on **dynamic programming**. -->
 **Mechanism Design**
 - [A tracked vehicle for obstacle climbing](/research/tracked/)
+- [Wave energy capturing mechanism](/research/mechanism/)
 
 **Control and Planning**
 - [Path Planning for mobile robots](/research/path-plan/)

@@ -2,3 +2,158 @@
 // .sidebar a {
 //   text-shadow: rgba(0, 0, 0, 0.25) 0.1rem 0.1rem 0.15rem;
 // }
+
+h1{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.education-entry {
+  display: flex;
+  align-items: flex-start; /* Aligns items to the start of the cross axis */
+  margin-bottom: 50px; /* Spacing between education entries */
+}
+
+.education-logo {
+  flex: 1 1 1; /* Do not grow or shrink */
+  margin-right: 100px; /* Spacing between logo and info */
+  display: flex;
+  align-items: center; /* This will vertically center the logo within the div */
+  justify-content: center; /* This will horizontally center the logo if the div has a fixed width */
+}
+
+.university-logo {
+  height: auto; /* Fixed height for logos */
+  width: 200px; /* Maintain aspect ratio */
+}
+
+.education-info {
+  flex: 1; /* Take up the remaining space */
+}
+
+.statement-entry {
+  display: flex;
+  align-items: flex-start; /* Aligns items to the start of the cross axis */
+  margin-bottom: 50px; /* Spacing between education entries */
+}
+
+.statement-logo {
+  flex: 1 1 1; /* Do not grow or shrink */
+  margin-left: 50px; /* Spacing between logo and info */
+  display: flex;
+  align-items: center; /* This will vertically center the logo within the div */
+  justify-content: center; /* This will horizontally center the logo if the div has a fixed width */
+}
+
+.statement-logo {
+  height: auto; /* Fixed height for logos */
+  width: 200px; /* Maintain aspect ratio */
+}
+
+.statement-info {
+  flex: 1; /* Take up the remaining space */
+}
+
+
+/* Custom style for the summary */
+summary {
+  cursor: pointer;
+  display: inline-block;
+  width: 50px; /* Width of the switch */
+  height: 25px; /* Height of the switch */
+  background-color: #ddd; /* Background color of the switch */
+  position: relative; /* To position the circle */
+  border-radius: 25px; /* Makes it rounded */
+}
+
+/* The circle inside the switch */
+summary::after {
+  content: '';
+  position: absolute;
+  top: 2px; /* Small space from the top */
+  left: 2px; /* Start position from the left */
+  width: 21px; /* Width of the circle */
+  height: 21px; /* Height of the circle */
+  background-color: white; /* Circle color */
+  border-radius: 50%; /* Makes it round */
+  transition: all 0.3s; /* Smooth transition */
+}
+
+/* When details is open, move the circle to the right */
+details[open] summary::after {
+  left: 27px; /* Move to the right */
+  background-color: #4CD964; /* Optional: change color when active */
+}
+
+/* Hide the default arrow */
+summary::-webkit-details-marker {
+  display: none;
+}
+
+details > summary {
+  list-style: none;
+}
+
+
+
+
+/*For projects*/
+.project {
+  display: flex;
+  align-items: center;
+  /* Add more styling as necessary */
+  // align-items: flex-start; /* Aligns items to the start of the cross axis */
+  margin-bottom: 50px; /* Spacing between education entries */
+}
+
+
+.project-image {
+  flex: 1 1 1; /* Do not grow or shrink */
+  margin-right: 50px; /* Spacing between logo and info */
+  display: flex;
+  align-items: center; /* This will vertically center the logo within the div */
+  justify-content: center; /* This will horizontally center the logo if the div has a fixed width */
+}
+
+.project-logo {
+  height: auto; /* Fixed height for logos */
+  width: 220px; /* Maintain aspect ratio */
+}
+
+.project-content {
+  /* Style your content area */
+  flex: 0 1 auto; /* Allow to grow, do not shrink, auto basis */
+}
+
+.project-content h2 {
+  /* Style your title */
+}
+
+.paper-link {
+  /* Style your paper link */
+}
+
+.keywords {
+  display: flex; /* Aligns keywords in a row */
+  flex-wrap: wrap; /* Allows keywords to wrap to the next line */
+  gap: 10px; /* Adds space between keywords */
+  margin-top: 10px; /* Adds space between keywords and description */
+}
+
+.keyword {
+  background: #eee; /* Light grey background */
+  border-radius: 5px; /* Rounded corners */
+  padding: 5px 10px; /* Padding inside the keyword block */
+  text-decoration: none; /* Removes underline from links */
+  color: black; /* Text color */
+  transition: background-color 0.3s; /* Smooth background color transition on hover */
+}
+
+.keyword:hover {
+  background: #ddd; /* Darker background on hover */
+}

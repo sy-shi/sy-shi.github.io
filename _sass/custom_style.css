@@ -1,0 +1,19 @@
+.education-entry {
+  display: flex;
+  align-items: flex-start; /* Aligns items to the start of the cross axis */
+  margin-bottom: 20px; /* Spacing between education entries */
+}
+
+.education-logo {
+  flex: 0 0 auto; /* Do not grow or shrink */
+  margin-right: 20px; /* Spacing between logo and info */
+}
+
+.university-logo {
+  height: 100px; /* Fixed height for logos */
+  width: auto; /* Maintain aspect ratio */
+}
+
+.education-info {
+  flex: 1; /* Take up the remaining space */
+}

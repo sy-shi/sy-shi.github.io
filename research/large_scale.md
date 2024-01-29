@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Large-Scale Collective Behavior Manipulation
+title: Efficient Large-Scale Team Behavior Manipulation
 sitemap: false
 permalink: /research/large_scale/
 ---

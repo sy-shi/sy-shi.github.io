@@ -31,7 +31,6 @@ utilized during the whole process, reducing the overall weight and cost.
 
 ---
 ### System Design
-[Read our Paper](https://ieeexplore.ieee.org/abstract/document/9665137)
 <img src="assets/img/dock.png" style="zoom:70%; display:block; margin:10px auto;" />
 In transportation, the UAV and the quadruped robot are closely contacted. We exploited
 this and developed an **adaptive docking system**, with which the the AUV can capture
@@ -43,17 +42,5 @@ We also implemented a **vision-based remote localization package** to enable the
 quadruped finding the hexarotor quickly after the tasks finish. Details of the
 system can be found in our published paper [in 2021 IEEE M2VIP](https://ieeexplore.ieee.org/abstract/document/9665137).
 
----
-### Control
-[Read our paper](http://arxiv.org/abs/2209.08209)
 
-In the above collaborative system, the quadruped brings mass-inertia uncertainty
-to the whole transportation system, because it might deploy sensors or carry samples
-with it. Hence, the performance of flight is greatly affected. To tackle this
-problem, we designed an **adaptive controller** for transportation. The proposed method
-**rejects external disturbances** such as wind with compensation and **estimates uncertain**
-**mass-inertia parameters**. It exceeds other methods in its smoothness and convergence
-rate. The paper can be seen in [arXiv](http://arxiv.org/abs/2209.08209).
-
----
 [Back to Research Page](/research/)

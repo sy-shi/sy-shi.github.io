@@ -57,12 +57,12 @@ menu:
   #   url:               /about/
   - title:             About Me
     url:               /
-  - title:             Research & Academic Projects
+  - title:             Research Experience
     url:               /research/
-  # - title:             Course Projects
-  #   url:               /project/
-  - title:             CV
-    url:               /files/CV_Shuyang_Shi.pdf
+  - title:             Course Projects
+    url:               /project/
+  # - title:             CV
+  #   url:               /files/CV_Shuyang_Shi.pdf
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -368,10 +368,9 @@ plugins:
 
 # Used on index and about sites
 # social:
-#   name:                <firstname> <lastname>
-#   links:
-#     - https://twitter.com/<username>
-#     - https://github.com/<username>
+  # links:
+  #   - https://twitter.com/<username>
+  #   - https://github.com/<username>
 
 
 # Plugin Configs
