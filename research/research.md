@@ -5,6 +5,27 @@ sitemap: false
 permalink: /research/
 ---
 
+## Current Work
+<div class="project">
+  <div class="project-image">
+    <img src="assets/img/AA.png" alt="Project Image" class="project-logo">
+  </div>
+  <div class="project-content">
+    <h2>Action Advising for Efficient RL in Ad Hoc Teaming</h2>
+    <!-- <a href="link_to_paper" class="paper-link">Paper</a> -->
+    <div class="keywords">
+      <a class="keyword">Reinforcement Learning</a>
+      <a class="keyword">Transfer Learning</a>
+      <a class="keyword">Multi-Agent</a>
+      <!-- Add more keywords as needed -->
+    </div>
+    Supervised by <a href="https://www.ri.cmu.edu/ri-faculty/katia-sycara/">Prof. Katia Sycara</a>.
+    Develop policy transfer strategy based on action advising to enhance reinforcement learning efficiency in multi-agent ad hoc teaming.
+  </div>
+</div>
+
+---
+## Past Work
 <div class="project">
   <div class="project-image">
     <img src="assets/img/active_vision_icon.png" alt="Project Image" class="project-logo">

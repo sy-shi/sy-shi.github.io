@@ -5,7 +5,7 @@ description: >
   Put some selected projects on this page.
 hide_description: true
 sitemap: false
-permalink: /research/path-plan/
+permalink: /project/path-plan/
 ---
 >We implemented a path planning package for a turtlebot
 in a pre-mapped environment.
@@ -24,4 +24,4 @@ interface in **Rviz** was developed to enable us testing the algorithms.
 - Compare the efficiency between C++ and Python implementation. -->
 
 ---
-[Back to Research Page](/research/)
+[Back to project Page](/project/)

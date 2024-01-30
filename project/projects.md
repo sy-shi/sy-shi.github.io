@@ -28,13 +28,79 @@ based on POE.
 - Designed an **artificial potential field** algorithm with **self-collision avoidance**
 for path planning.
 - Developed the trajectory planning with **cubic splines** based on **dynamic programming**. -->
-**Mechanism Design**
-- [A tracked vehicle for obstacle climbing](/research/tracked/)
-- [Wave energy capturing mechanism](/research/mechanism/)
 
-**Control and Planning**
-- [Path Planning for mobile robots](/research/path-plan/)
-- [Navigation for UR-10 manipulators](/research/ur10-nav/#navigation)
+<div class="project">
+  <div class="project-image">
+    <img src="assets/img/apf.jpg" alt="Project Image" class="project-logo">
+  </div>
+  <div class="project-content">
+    <h2>Navigation for UR-10 manipulators</h2>
+    <!-- <a href="link_to_paper" class="paper-link">Paper</a> -->
+    <div class="keywords">
+      <!-- <a href="link_to_related_content" class="keyword">Paper</a> -->
+      <a class="keyword">Manipulator</a>
+      <a class="keyword">Navigation</a>
+      <!-- Add more keywords as needed -->
+    </div>
+    Implemented a navigation system for UR-10 manipulator and verified on Simulink; enhanced self-collision avoidance based on artificial potential field algorithms.
+    <a href="ur10-nav"><img src="assets/img/right-arrow.png"></a>
+  </div>
+</div>
+
+<div class="project">
+  <div class="project-image">
+    <img src="assets/img/prototype.jpg" alt="Project Image" class="project-logo">
+  </div>
+  <div class="project-content">
+    <h2>A tracked vehicle for obstacle climbing</h2>
+    <!-- <a href="link_to_paper" class="paper-link">Paper</a> -->
+    <div class="keywords">
+      <!-- <a href="link_to_related_content" class="keyword">Paper</a> -->
+      <a class="keyword">Obstacle Climbing</a>
+      <a class="keyword">Robot System Design</a>
+      <!-- Add more keywords as needed -->
+    </div>
+    Designed and prototyped an double-tracked robot for obstacle climbing.
+    <a href="tracked"><img src="assets/img/right-arrow.png"></a>
+  </div>
+</div>
+
+<div class="project">
+  <div class="project-image">
+    <img src="assets/img/plan_pic1.png" alt="Project Image" class="project-logo">
+  </div>
+  <div class="project-content">
+    <h2>A* Path Planning for Mobile Robots</h2>
+    <!-- <a href="link_to_paper" class="paper-link">Paper</a> -->
+    <div class="keywords">
+      <!-- <a href="link_to_related_content" class="keyword">Paper</a> -->
+      <a class="keyword">A*</a>
+      <a class="keyword">Path Planning</a>
+      <a class="keyword">ROS</a>
+      <!-- Add more keywords as needed -->
+    </div>
+    Implemented A* path planning algorithm for navigation of mobile robot in ROS with both C++ and Python.
+    <a href="path-plan"><img src="assets/img/right-arrow.png"></a>
+  </div>
+</div>
 
 
----
+<div class="project">
+  <div class="project-image">
+    <img src="assets/img/foldable2.png" alt="Project Image" class="project-logo">
+  </div>
+  <div class="project-content">
+    <h2>Foldable Wave Energy Capturing Robot</h2>
+    <!-- <a href="link_to_paper" class="paper-link">Paper</a> -->
+    <div class="keywords">
+      <!-- <a href="link_to_related_content" class="keyword">Paper</a> -->
+      <a class="keyword">Robotics System Design</a>
+      <a class="keyword">Autonomous Underwater Vehicle</a>
+      <a class="keyword">Wave Dynamics</a>
+      <a class="keyword">Simulink</a>
+      <!-- Add more keywords as needed -->
+    </div>
+    Designed and tested an AUV with foldable wings for self-energy supply exploiting wave energy.
+    <a href="mechanism"><img src="assets/img/right-arrow.png"></a>
+  </div>
+</div>

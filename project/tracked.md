@@ -2,7 +2,7 @@
 layout: page
 title: Tracked Vehicle
 sitemap: false
-permalink: /research/tracked/
+permalink: /project/tracked/
 ---
 >We designed and implemented a double-tracked ground vehicle to climb obstacles
 
@@ -27,4 +27,4 @@ We built a prototype for the obstacle climbing competition.
 [Watch our video](https://youtu.be/yi-xT_qJLEE).
 
 ---
-[Back to Research Page](/research/)
+[Back to Project Page](/project/)
