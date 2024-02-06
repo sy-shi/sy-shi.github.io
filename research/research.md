@@ -17,6 +17,7 @@ permalink: /research/
       <a class="keyword">Reinforcement Learning</a>
       <a class="keyword">Transfer Learning</a>
       <a class="keyword">Multi-Agent</a>
+      <a class="keyword">PyTorch</a>
       <!-- Add more keywords as needed -->
     </div>
     Supervised by <a href="https://www.ri.cmu.edu/ri-faculty/katia-sycara/">Prof. Katia Sycara</a>.
@@ -38,7 +39,7 @@ permalink: /research/
       <a class="keyword">Multi-Robot</a>
       <a class="keyword">Planning and Control</a>
       <a class="keyword">Active Vision</a>
-      <a class="keyword">Localization</a>
+      <a class="keyword">ROS</a>
       <!-- Add more keywords as needed -->
     </div>
     Scheduled active vision tasks for a UGV team to enhance vision-based localization of an aerial vehicle for safe navigation.
@@ -77,6 +78,7 @@ permalink: /research/
       <a class="keyword">Drone</a>
       <a class="keyword">Adaptive Control</a>
       <a class="keyword">Parameter Estimation</a>
+      <a class="keyword">MatLab</a>
       <!-- Add more keywords as needed -->
     </div>
     Proposed an adaptive control method with mass-inertia estimation and disturbance rejection tailored for multi-rotor UAVs in aerial transportation tasks.

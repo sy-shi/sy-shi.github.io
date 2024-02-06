@@ -1,30 +1,38 @@
 ---
 layout: page
-title: Active Vision Scheduling of Multi-UGV Systems
+title: Active Vision of Coordinated Ground Vehicle Systems
 description: >
   Put some selected projects on this page.
 hide_description: true
 sitemap: false
 permalink: /research/active_vision/
 ---
-> We proposed a task scheduling and motion control method for unmmaned ground vehicle (UGV)
-teams to conduct active vision missions collaboratively.
-
+## Overview
 <p align="justify">
-This is my Bachelor's graduation project. It was conducted in the laboratory of Cooperative Intelligence of
+This is the project for my Bachelor's dissertation. It was conducted in the laboratory of Cooperative Intelligence of
 Unmanned Systems (CIUS) led by <a href="https://me.sjtu.edu.cn/teacher_directory1/dongwei2.html">Prof. Wei Dong</a>.
-We hope to guarantee safe navigation of aerial vehicles with UGVs' vision systems. In this way, the perception
-payload of UAVs can be removed and endurance can be improved. We scheduled UGVs' perception tasks based on
-<b>distributed task allocation</b> methods and utilized <strong>active vision</strong> strategies to optimize camera views.
+In this project, <strong>we deployed two ground vehicles (UGVs) to localize an aerial vehicle based on onboard cameras with
+pan-tilt platforms. Meanwhile, the UGVs were capable of detecting surrounding obstacles for the aerial vehicle to
+ensure safe navigation.</strong>
+
+<br>
+I was responsible for designing planning and control algorithms for the camera systems so that they could cooperatively adjust configurations
+to fit the tasks of localization and obstacle detection simultaneously. My method consists of two modules. <strong>Task allocation</strong> module
+plans task for each robot, and the <strong>MPC controller</strong> module generates control signals for camera pan-tilt platforms to conduct the assigned tasks.
+<img src="assets/img/active_vision_overview.jpg" style="zoom:75%; display:block; margin:10px auto;"/>
 </p>
+### Method
+<p align="justify">
+Tasks are modelled hierarchically into team and individual levels. The team level task is planned based on consensus among robots.
+The individual level tasks is allocated based on auction method. The assigned tasks are sent into MPC controllers as objectives, and
+In controller, UGV motion, pan-tilt platform motion, and UAV motion are modelled to capture major features that contributes to the
+systems kinematics.
+</p>
+<img src="assets/img/active_vision_module.png" style="zoom:60%; display:block; margin:10px auto;"/>
 
----
-### Overview
-<img src="assets/img/active_vision_overview.jpg" style="zoom:90%; display:block; margin:10px auto;"/>
-
-In the above picture, two UGVs are localizing a UAV with their onboard cameras meanwhile detecting surrounding hazardous obstacles.
-<br/><br/>
-More details of the project are not available currently.
+### Implementation and Experiments
+The algorithms wre implemented based on <strong>ROS</strong> and experiments were conducted in an indoor scenario.
+Robust UAV localization is guaranteed for 96.6% of the experiment duration.
 
 ---
 [Back to Research Page](/research/)
