@@ -13,18 +13,26 @@ the tasks.
 
 ---
 ### Mechanism
-<img src="assets/img/design.jpg" style="zoom:80%; display:block; margin:10px auto;" />
+<img src="/project/tracked/assets/img/design.jpg" style="zoom:80%; display:block; margin:10px auto;" />
+<p align="justify">
 We designed a tracked vehicle in order to maintain high mobility while having
 good adaptiveness to different obstacles. In order to reduce self-weight and size,
-we modeled an **LP problem** and optimized the robot's shape with [Gurobi](https://www.gurobi.com/).
-And we designed proper shafts and gearboxes to improve its loading ability.
+we modeled an <strong>LP problem</strong> and optimized the robot's shape with <a href="https://www.gurobi.com/">Gurobi</a>.
+And we designed proper shafts and gearboxes to improve its loading ability.</p>
 
 ---
 ### Prototype
-<!-- <img src="assets/img/prototype.jpg" style="zoom:120%; display:block; margin:10px auto;" /> -->
-<!-- Above is our model built in Solidworks. To see its prototype, please  -->
 We built a prototype for the obstacle climbing competition.
-[Watch our video](https://youtu.be/yi-xT_qJLEE).
+
+<div class="youtube-container">
+  <iframe 
+    width="560" 
+    height="315" 
+    src="https://youtube.com/embed/yi-xT_qJLEE" 
+    frameborder="0" 
+    allowfullscreen>
+  </iframe>
+</div>
 
 ---
 [Back to Project Page](/project/)

@@ -31,7 +31,51 @@ for path planning.
 
 <div class="project">
   <div class="project-image">
-    <img src="assets/img/apf.jpg" alt="Project Image" class="project-logo">
+    <img src="/project/guided_rl/guided_rl.png" alt="Project Image" class="project-logo">
+  </div>
+  <div class="project-content">
+    <h2>Guided Exploration for Safe RL</h2>
+    <!-- <a href="link_to_paper" class="paper-link">Paper</a> -->
+    <div class="keywords">
+      <!-- <a href="link_to_related_content" class="keyword">Paper</a> -->
+      <a class="keyword">Transfer Learning</a>
+      <a class="keyword">Reinforcement Learning</a>
+      <a class="keyword">Self-Driving</a>
+      <!-- Add more keywords as needed -->
+    </div>
+    Explored schemes for guiding RL with imperfect expert demonstrations for exploration safety and efficiency.
+    <a href="guided_rl"><img src="/project/assets/img/right-arrow.png"></a>
+  </div>
+</div>
+
+<div class="project">
+  <div class="project-image">
+    <video autoplay loop muted class="project-logo">
+      <source src="/project/painting/painting demo.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <div class="project-content">
+    <h2>Creative Mobile Robot Wall Painting</h2>
+    <!-- <a href="link_to_paper" class="paper-link">Paper</a> -->
+    <div class="keywords">
+      <!-- <a href="link_to_related_content" class="keyword">Paper</a> -->
+      <a class="keyword">ROS</a>
+      <a class="keyword">Mobile Manipulator</a>
+      <a class="keyword">VLM</a>
+      <!-- Add more keywords as needed -->
+    </div>
+    Implemented a mobile manipulator navigation framework for flexible wall-painting. Integrated VLM models to enable image-to-stroke creative painting.
+    <a href="painting"><img src="/project/assets/img/right-arrow.png"></a>
+  </div>
+</div>
+
+<div class="project">
+  <div class="project-image">
+    <video autoplay loop muted class="project-logo">
+      <source src="/project/ur10-nav/assets/video/path_plan.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
   </div>
   <div class="project-content">
     <h2>Navigation for UR-10 manipulators</h2>
@@ -43,14 +87,25 @@ for path planning.
       <!-- Add more keywords as needed -->
     </div>
     Implemented a navigation system for UR-10 manipulator and verified on Simulink; enhanced self-collision avoidance based on artificial potential field algorithms.
-    <a href="ur10-nav"><img src="assets/img/right-arrow.png"></a>
+    <a href="ur10-nav"><img src="/project/assets/img/right-arrow.png"></a>
   </div>
 </div>
 
 <div class="project">
   <div class="project-image">
-    <img src="assets/img/prototype.jpg" alt="Project Image" class="project-logo">
+    <div class="youtube-video-wrapper">
+      <iframe 
+        class="project-logo" 
+        src="https://youtube.com/embed/yi-xT_qJLEE" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+    </div>
   </div>
+  <!-- <div class="project-image">
+    <img src="/project/tracked/assets/img/prototype.jpg" alt="Project Image" class="project-logo">
+  </div> -->
   <div class="project-content">
     <h2>A tracked vehicle for obstacle climbing</h2>
     <!-- <a href="link_to_paper" class="paper-link">Paper</a> -->
@@ -61,13 +116,13 @@ for path planning.
       <!-- Add more keywords as needed -->
     </div>
     Designed and prototyped an double-tracked robot for obstacle climbing.
-    <a href="tracked"><img src="assets/img/right-arrow.png"></a>
+    <a href="tracked"><img src="/project/assets/img/right-arrow.png"></a>
   </div>
 </div>
 
 <div class="project">
   <div class="project-image">
-    <img src="assets/img/plan_pic1.png" alt="Project Image" class="project-logo">
+    <img src="/project/path-plan/assets/img/plan_pic1.png" alt="Project Image" class="project-logo">
   </div>
   <div class="project-content">
     <h2>A* Path Planning for Mobile Robots</h2>
@@ -80,14 +135,13 @@ for path planning.
       <!-- Add more keywords as needed -->
     </div>
     Implemented A* path planning algorithm for navigation of mobile robot in ROS with both C++ and Python.
-    <a href="path-plan"><img src="assets/img/right-arrow.png"></a>
+    <a href="path-plan"><img src="/project/assets/img/right-arrow.png"></a>
   </div>
 </div>
 
-
 <div class="project">
   <div class="project-image">
-    <img src="assets/img/foldable2.png" alt="Project Image" class="project-logo">
+    <img src="/project/mechanism/assets/img/foldable2.png" alt="Project Image" class="project-logo">
   </div>
   <div class="project-content">
     <h2>Foldable Wave Energy Capturing Robot</h2>
@@ -101,6 +155,6 @@ for path planning.
       <!-- Add more keywords as needed -->
     </div>
     Designed and tested an AUV with foldable wings for self-energy supply exploiting wave energy.
-    <a href="mechanism"><img src="assets/img/right-arrow.png"></a>
+    <a href="mechanism"><img src="/project/assets/img/right-arrow.png"></a>
   </div>
 </div>

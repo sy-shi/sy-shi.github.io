@@ -19,8 +19,13 @@ ensure safe navigation.</strong>
 I was responsible for designing planning and control algorithms for the camera systems so that they could cooperatively adjust configurations
 to fit the tasks of localization and obstacle detection simultaneously. My method consists of two modules. <strong>Task allocation</strong> module
 plans task for each robot, and the <strong>MPC controller</strong> module generates control signals for camera pan-tilt platforms to conduct the assigned tasks.
-<img src="assets/img/active_vision_overview.jpg" style="zoom:75%; display:block; margin:10px auto;"/>
 </p>
+<div class="video-container">
+  <video width="600" controls style="display: block; margin: 0 auto;">
+    <source src="/research/active_vision/active_vision_video_demo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
 ### Method
 <p align="justify">
 Tasks are modelled hierarchically into team and individual levels. The team level task is planned based on consensus among robots.
@@ -28,7 +33,7 @@ The individual level tasks is allocated based on auction method. The assigned ta
 In controller, UGV motion, pan-tilt platform motion, and UAV motion are modelled to capture major features that contributes to the
 systems kinematics.
 </p>
-<img src="assets/img/active_vision_module.png" style="zoom:60%; display:block; margin:10px auto;"/>
+<img src="/research/active_vision/assets/img/active_vision_module.png" style="zoom:60%; display:block; margin:10px auto;"/>
 
 ### Implementation and Experiments
 The algorithms wre implemented based on <strong>ROS</strong> and experiments were conducted in an indoor scenario.

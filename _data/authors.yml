@@ -64,7 +64,7 @@ author1:
     # stumbleupon:     <username>
     # paypal:          <username>
     # download:        ./files/CV_Shuyang_Shi.pdf
-    document:        ./files/Shuyang_Shi_Resume.pdf
+    document:        /files/Shuyang_Shi_Resume_Long.pdf
     # keybase          <username>
 
 # Another author (optional)

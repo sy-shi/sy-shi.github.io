@@ -108,42 +108,40 @@ details > summary {
 
 
 
-/*For projects*/
+/* For projects */
 .project {
   display: flex;
-  align-items: center;
-  /* Add more styling as necessary */
-  // align-items: flex-start; /* Aligns items to the start of the cross axis */
+  align-items: flex-start; /* Aligns items to the start of the cross axis (top of the container) */
   margin-bottom: 50px; /* Spacing between education entries */
 }
 
-
+/* For the project image or video */
 .project-image {
-  flex: 1 1 1; /* Do not grow or shrink */
+  flex: 0 0 220px; /* Fixed width for image/video to ensure consistent size */
   margin-right: 50px; /* Spacing between logo and info */
   display: flex;
-  align-items: center; /* This will vertically center the logo within the div */
-  justify-content: center; /* This will horizontally center the logo if the div has a fixed width */
+  align-items: center; /* This will vertically center the logo/video within the div */
+  justify-content: center; /* This will horizontally center the logo/video if the div has a fixed width */
 }
 
 .project-logo {
-  height: auto; /* Fixed height for logos */
-  width: 220px; /* Maintain aspect ratio */
+  max-width: 100%; /* Ensures the video/image does not overflow the container */
+  height: auto; /* Maintain aspect ratio */
 }
 
+/* For the project content */
 .project-content {
-  /* Style your content area */
-  flex: 0 1 auto; /* Allow to grow, do not shrink, auto basis */
+  flex: 1; /* Allow content to grow, taking remaining space */
+  display: flex; /* Enable flexbox layout */
+  flex-direction: column; /* Align content vertically */
 }
 
+/* For project title */
 .project-content h2 {
-  /* Style your title */
+  margin: 0 0 10px; /* Adds margin below the title */
 }
 
-.paper-link {
-  /* Style your paper link */
-}
-
+/* For keywords */
 .keywords {
   display: flex; /* Aligns keywords in a row */
   flex-wrap: wrap; /* Allows keywords to wrap to the next line */
@@ -162,4 +160,26 @@ details > summary {
 
 .keyword:hover {
   background: #ddd; /* Darker background on hover */
+}
+
+.youtube-video-wrapper {
+  width: 100%; /* Makes sure the iframe takes the full width of its container */
+  position: relative; /* Ensures proper scaling */
+  padding-bottom: 56.25%; /* Aspect ratio for 16:9 */
+  height: 0; /* Initial height set to 0 for scaling */
+}
+
+.youtube-video-wrapper iframe {
+  position: absolute; /* Positions the iframe absolutely within the container */
+  top: 0;
+  left: 0;
+  width: 100%; /* Makes iframe take the full width */
+  height: 100%; /* Makes iframe take the full height */
+}
+
+.youtube-container {
+  display: flex; /* Establishes flexbox */
+  justify-content: center; /* Centers the iframe horizontally */
+  // align-items: center; /* Centers the iframe vertically */
+  // height: 100vh; /* Optional: makes the container take up full viewport height */
 }

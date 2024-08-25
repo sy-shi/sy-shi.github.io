@@ -8,6 +8,24 @@ permalink: /research/
 ## Current Work
 <div class="project">
   <div class="project-image">
+    <img src="/research/ts_llm/overview_agent_training.png" alt="Project Image" class="project-logo">
+  </div>
+  <div class="project-content">
+    <h2>Enhance RL with LLM Feedback</h2>
+    <!-- <a href="link_to_paper" class="paper-link">Paper</a> -->
+    <div class="keywords">
+      <a href="https://openreview.net/pdf?id=PnCPV7vZOT" class="keyword">Paper</a>
+      <a class="keyword">Reinforcement Learning</a>
+      <a class="keyword">LLM</a>
+      <!-- Add more keywords as needed -->
+    </div>
+    Proposed and verified an RL framework which exploits LLM feedback for reward specification based on potential functions.
+    <a href="ts_llm"><img src="assets/img/right-arrow.png"></a>
+  </div>
+</div>
+
+<div class="project">
+  <div class="project-image">
     <img src="assets/img/AA.png" alt="Project Image" class="project-logo">
   </div>
   <div class="project-content">
@@ -20,7 +38,6 @@ permalink: /research/
       <a class="keyword">PyTorch</a>
       <!-- Add more keywords as needed -->
     </div>
-    Supervised by <a href="https://www.ri.cmu.edu/ri-faculty/katia-sycara/">Prof. Katia Sycara</a>.
     Develop policy transfer strategy based on action advising to enhance reinforcement learning efficiency in multi-agent ad hoc teaming.
   </div>
 </div>
@@ -28,9 +45,15 @@ permalink: /research/
 ---
 ## Past Work
 <div class="project">
-  <div class="project-image">
-    <img src="assets/img/active_vision_icon.png" alt="Project Image" class="project-logo">
+<div class="project-image">
+    <video autoplay loop muted class="project-logo">
+      <source src="/research/active_vision/active_vision_video_demo.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
   </div>
+  <!-- <div class="project-image">
+    <img src="/research/active_vision/assets/img/icon.png" alt="Project Image" class="project-logo">
+  </div> -->
   <div class="project-content">
     <h2>Active Vision of Coordinated Ground Vehicle Systems</h2>
     <!-- <a href="link_to_paper" class="paper-link">Paper</a> -->
@@ -49,7 +72,7 @@ permalink: /research/
 
 <div class="project">
   <div class="project-image">
-    <img src="assets/img/large_scale.png" alt="Project Image" class="project-logo">
+    <img src="/research/assets/img/large_scale.png" alt="Project Image" class="project-logo">
   </div>
   <div class="project-content">
     <h2>Efficient Large-Scale Team Behavior Manipulation</h2>
@@ -68,7 +91,7 @@ permalink: /research/
 
 <div class="project">
   <div class="project-image">
-    <img src="assets/img/process.jpg" alt="Project Image" class="project-logo">
+    <img src="/research/uav_control/assets/img/process.jpg" alt="Project Image" class="project-logo">
   </div>
   <div class="project-content">
     <h2>Adaptive Control of UAVs with Parameter Estimation</h2>
@@ -88,7 +111,7 @@ permalink: /research/
 
 <div class="project">
   <div class="project-image">
-    <img src="assets/img/flight_1.png" alt="Project Image" class="project-logo">
+    <img src="/research//hexarotor/assets/img/flight_1.png" alt="Project Image" class="project-logo">
   </div>
   <div class="project-content">
     <h2>Design of an Integrated Unmanned Quadruped-Hexarotor System</h2>

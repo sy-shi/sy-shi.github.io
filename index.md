@@ -37,7 +37,7 @@ and draw inspiration from any other regions. -->
   <div class="education-info">
   <!-- <h3>Carnegie Mellon University</h3> -->
   <strong>Carnegie Mellon University</strong>
-  <p>Master of Science in Robotics <br>GPA: 4.0/4.0
+  <p>Master of Science in Robotics <br>supervised by <a href="https://www.ri.cmu.edu/ri-faculty/katia-sycara/">Prof. Katia Sycara</a><br>GPA: 4.0/4.0
   <br>Aug. 2023 - Aug. 2025 (expected)
   <details>
     <summary></summary>

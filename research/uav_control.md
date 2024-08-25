@@ -24,7 +24,7 @@ To tackle this problem, we designed an **adaptive controller** for transportatio
 **mass-inertia parameters**. It exceeds other methods in its smoothness and convergence
 rate. It is able to achieve 2% estimation error bound in less than 4 seconds for an UAV with mass over 3kg.
 
-<img src="assets/img/attitude_e.png" style="zoom:90%; float:center; padding:37px;" />
+<img src="/research/uav_control/assets/img/attitude_e.png" style="zoom:90%; float:center; padding:37px;" />
 
 ---
 [Back to Research Page](/research/)
