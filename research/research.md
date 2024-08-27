@@ -26,7 +26,7 @@ permalink: /research/
 
 <div class="project">
   <div class="project-image">
-    <img src="assets/img/AA.png" alt="Project Image" class="project-logo">
+    <img src="/research/action_advise/intuition.png" alt="Project Image" class="project-logo">
   </div>
   <div class="project-content">
     <h2>Action Advising for Efficient RL in Ad Hoc Teaming</h2>
@@ -39,6 +39,7 @@ permalink: /research/
       <!-- Add more keywords as needed -->
     </div>
     Develop policy transfer strategy based on action advising to enhance reinforcement learning efficiency in multi-agent ad hoc teaming.
+    <a href="action_advise"><img src="assets/img/right-arrow.png"></a>
   </div>
 </div>
 

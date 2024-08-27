@@ -11,9 +11,9 @@ cover: true
   <div class="statement-info">
   <p align="justify">I am passionate about developing innovative robotics applications that can
   execute human commands with flexibility and advanced intelligence.
-  My research experience includes action advising for efficient RL, vision control
+  My research experience includes enhancing efficient RL with knowledge transfer, vision control
   for multiple ground vehicle systems, UAV adaptive control algorithm design, and hexarotor UAV system devalopment.</p>
-  <strong>My Skills</strong>: Reinforcement Learning, Robotic System Design and Control, <br>Multi-Agent, Computer Vision
+  <strong>My Skills</strong>: Reinforcement Learning, Transfer Learning, Robotic System Design and Control, Multi-Agent, Computer Vision
   </div>
   <div class="statement-logo">
     <img src="assets/icons/graduate_circle.png" alt="head Logo" alt="head Logo" class="statement-logo">
@@ -37,7 +37,7 @@ and draw inspiration from any other regions. -->
   <div class="education-info">
   <!-- <h3>Carnegie Mellon University</h3> -->
   <strong>Carnegie Mellon University</strong>
-  <p>Master of Science in Robotics <br>supervised by <a href="https://www.ri.cmu.edu/ri-faculty/katia-sycara/">Prof. Katia Sycara</a><br>GPA: 4.0/4.0
+  <p>Master of Science in Robotics <br>Supervised by <a href="https://www.ri.cmu.edu/ri-faculty/katia-sycara/">Prof. Katia Sycara</a><br>GPA: 4.0/4.0
   <br>Aug. 2023 - Aug. 2025 (expected)
   <details>
     <summary></summary>
