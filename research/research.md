@@ -14,7 +14,7 @@ permalink: /research/
     <h2>Enhance RL with LLM Feedback</h2>
     <!-- <a href="link_to_paper" class="paper-link">Paper</a> -->
     <div class="keywords">
-      <a href="https://openreview.net/pdf?id=PnCPV7vZOT" class="keyword">Paper</a>
+      <a href="/research/assets/files/EMNLP2024.pdf" class="keyword">Paper</a>
       <a class="keyword">Reinforcement Learning</a>
       <a class="keyword">LLM</a>
       <!-- Add more keywords as needed -->
@@ -26,7 +26,7 @@ permalink: /research/
 
 <div class="project">
   <div class="project-image">
-    <img src="/research/action_advise/intuition.png" alt="Project Image" class="project-logo">
+    <img src="/research/action_advise/overview.pdf" alt="Project Image" class="project-logo">
   </div>
   <div class="project-content">
     <h2>Action Advising for Efficient RL in Ad Hoc Teaming</h2>
