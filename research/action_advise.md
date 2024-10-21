@@ -10,7 +10,7 @@ permalink: /research/action_advise/
 
 ## Overview
 
-<img src="/research/action_advise/overview.pdf" style="zoom:90%; display:block; margin:10px auto;" />
+<img src="/research/action_advise/overview.jpg" style="zoom:90%; display:block; margin:10px auto;" />
 
 <p align="justify">
 Efficiency in multi-agent teamwork has been extensively studied where agents are equally experienced. %or novice. 

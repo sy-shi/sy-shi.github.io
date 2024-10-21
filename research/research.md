@@ -26,7 +26,7 @@ permalink: /research/
 
 <div class="project">
   <div class="project-image">
-    <img src="/research/action_advise/overview.pdf" alt="Project Image" class="project-logo">
+    <img src="/research/action_advise/overview.jpg" alt="Project Image" class="project-logo">
   </div>
   <div class="project-content">
     <h2>Action Advising for Efficient RL in Ad Hoc Teaming</h2>
